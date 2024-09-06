@@ -1,10 +1,11 @@
-React questions (junior to senior):
+React questions:
 
 Describe how to use useState.
 
 What happens with a component when it receives new props?
 
 How can you share a state between multiple components?
+https://stackoverflow.com/questions/38901106/how-to-make-a-shared-state-between-two-react-components
 
 Do you have to use React with JSX?
 
@@ -15,6 +16,7 @@ What is the VDOM (Virtual DOM)?
 What are some common pitfalls when doing data fetching?
 
 Describe the usage and pitfalls of useEffect (open discussion).
+
 
 JS Questions (junior to senior):
 
