@@ -62,8 +62,23 @@ State is a local data storage that is local to the component and cannot be passe
 •	<b>How do you use React with TypeScript? </b> 
  React with TypeScript involves using TypeScript to add static typing to your React code. This improves code quality and maintainability by catching errors at compile-time.
 
-•	<b>Passing data deeply- context api - https://react.dev/learn/passing-data-deeply-with-context
+•	<b>Passing data deeply- context api </b></n>- https://react.dev/learn/passing-data-deeply-with-context
 
-•	<b>Lazy loading - https://react.dev/reference/react/lazy#suspense-for-code-splitting
+•	<b>Lazy loading </b></n>- https://react.dev/reference/react/lazy#suspense-for-code-splitting
 
+<b> 5 ways to pass data between components in react application</b></n>
 
+1. Props
+Props are the most common way to pass data from parent to child components. Props are read-only and cannot be modified by the child component.
+
+2. State Lifting
+When two sibling components need to share data, you can lift the shared state up to their closest common ancestor. The ancestor manages the state and passes it down as props to the sibling components.
+
+3. Context API
+The Context API provides a way to pass data through the component tree without having to pass props down manually at every level. It is useful for global state that needs to be accessed by many components.
+
+4. Redux
+Redux is a state management library that allows you to store the entire application state in a single store. Components can access and update the state using actions and reducers.
+
+5. Custom Hooks
+Custom hooks allow you to encapsulate stateful logic that can be shared across multiple components. They help in reusing stateful logic without altering your component hierarchy.
